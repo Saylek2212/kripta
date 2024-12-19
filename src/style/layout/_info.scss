@@ -1,0 +1,45 @@
+.info {
+    margin-block-end: 35px;
+}
+.info__wrapp {
+    position: relative;
+    max-width: 1170px;
+    max-height: 407px;
+    border-radius: 20px;
+    background: #dfd7f9;
+    background-blend-mode: normal;
+    padding: 2em;
+}
+.info__img {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+}
+.info__tittle {
+    color: #5e6282;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 110%;
+    text-align: center;
+    margin-block-end: 1em;
+}
+.info__form {
+    display: flex;
+    column-gap: .5em;
+}
+.info__mail {
+    max-width: 421px;
+    max-height: 68px;
+    background: #ffffff;
+    background-blend-mode: normal;
+    border: none;
+}
+.info__btn {
+    border-radius: 10px;
+    border-color:#f1a501;
+    background: #f1a501;
+    background-blend-mode: normal;
+    box-shadow: 0px 20px 35px rgba(241,165,1,0.15);
+    padding: .5em .8em;
+}

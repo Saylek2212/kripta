@@ -1,0 +1,33 @@
+.destination {
+    margin-block-end: 35px;
+    * {
+        margin-block-end: 1rem;
+    }
+}
+.section_tittle {
+    margin-block-end: 10vw;
+    text-align: center;
+}
+.destination__boxes {
+    max-width: 314px;
+}
+.destination_box {
+    color: #5e6282;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    margin-block-end: 2em;
+}
+.destination_box-img {
+}
+.destination_box_text-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    p {
+        margin-block-end: 0.2em;
+    }
+}
+.destination_box_text-price, .destination_box-trip {
+    padding-inline: 1em;
+}
