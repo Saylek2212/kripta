@@ -1,0 +1,27 @@
+.nav__header, .header__btns {
+    margin-block-end: 1em;
+}
+.links__header {
+    list-style-type: none;
+}
+.page__link {
+    color: #212832;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+}
+.sign {
+    border: 1px solid #212832;
+    border-radius: 5px;
+    background-color: $white;
+    padding: .5rem .8rem;
+}
+.language {
+    border: none;
+}
+.page__dec {
+    position: absolute;
+    top: -100px;;
+    right: -100px;
+    z-index: -1;
+}

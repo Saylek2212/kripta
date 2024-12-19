@@ -1,4 +1,3 @@
-
 %visually-hidden {
     position: absolute;
     width: 1px;
@@ -25,8 +24,8 @@ h1 {
     color: #5e6282;
     font-family: Poppins;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 180%;
+    font-weight: 400;
+    line-height: 19.92px;
 }
 
 .section__tittle {
@@ -49,9 +48,5 @@ h1 {
 
 a {
     text-decoration: none;
-    list-style-type: none;
     color: rgb(33, 40, 50);
-}
-a.page__link {
-    list-style-type: none;
 }
