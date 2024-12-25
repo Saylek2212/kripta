@@ -733,6 +733,7 @@ a {
   font-family: Poppins;
   font-size: clamp(24px, 3vw, 44px);
   font-weight: 500;
+  margin-block-end: 1rem;
 }
 
 .footer__text {
@@ -740,10 +741,21 @@ a {
   font-family: Poppins;
   font-size: 13px;
   font-weight: 500;
+  margin-block-end: 1em;
 }
 
 .footer__links {
   display: flex;
+  flex-wrap: wrap;
   -moz-column-gap: 2em;
        column-gap: 2em;
+  margin-block-end: 1rem;
+}
+
+.social__footer {
+  text-align: center;
+}
+
+.footer__social-tetx {
+  margin-block-end: 0.5em;
 }/*# sourceMappingURL=main.css.map */

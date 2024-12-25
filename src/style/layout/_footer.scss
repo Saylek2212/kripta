@@ -16,30 +16,24 @@
     font-family: Poppins;
     font-size: clamp(24px, 3vw, 44px);
     font-weight: 500;
+    margin-block-end: 1rem;
 }
 .footer__text {
     color: #5e6282;
     font-family: Poppins;
     font-size: 13px;
     font-weight: 500;
+    margin-block-end: 1em;
 }
 .footer__links {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 2em;
-}
-.company__footer {
-}
-.footer__titl {
-}
-.fooetr__link {
-}
-.contact__footer {
-}
-.more__footer {
+    margin-block-end: 1rem;
 }
 .social__footer {
+    text-align: center;
 }
-.footer__footer {
-}
-.foo_foo {
+.footer__social-tetx {
+    margin-block-end: .5em;
 }
