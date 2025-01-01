@@ -1,0 +1,14 @@
+@media  screen and (min-width: 420px) {
+    .header__page {
+        display: flex;
+        column-gap: 1.5em;
+        justify-content: space-between;
+        img {
+            max-width: 114.91px;
+            max-height: 33.99px;
+        }
+    }
+    .links__header>li {
+        margin-block-end: 2em;
+    }
+}

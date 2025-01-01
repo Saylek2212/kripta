@@ -759,4 +759,20 @@ a {
 
 .footer__social-tetx {
   margin-block-end: 0.5em;
+}
+
+@media screen and (min-width: 420px) {
+  .header__page {
+    display: flex;
+    -moz-column-gap: 1.5em;
+         column-gap: 1.5em;
+    justify-content: space-between;
+  }
+  .header__page img {
+    max-width: 114.91px;
+    max-height: 33.99px;
+  }
+  .links__header > li {
+    margin-block-end: 2em;
+  }
 }/*# sourceMappingURL=main.css.map */
