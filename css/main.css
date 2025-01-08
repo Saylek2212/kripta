@@ -53,6 +53,7 @@ body {
   margin: 0 auto;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  transition: 0.5s;
 }
 
 /**
@@ -646,6 +647,10 @@ a {
   margin-block-end: 1rem;
 }
 
+.about__left-block {
+  flex-basis: 30%;
+}
+
 .about__dots {
   text-align: center;
 }
@@ -654,6 +659,7 @@ a {
 }
 
 .about__right-block {
+  flex-basis: fill;
   position: relative;
   max-width: 504px;
   max-height: 245px;
@@ -828,9 +834,10 @@ a {
     justify-content: center;
   }
   .about {
+    flex-direction: row;
     flex-wrap: wrap;
-    -moz-column-gap: 10vw;
-         column-gap: 10vw;
+    -moz-column-gap: 5vw;
+         column-gap: 5vw;
   }
 }
 @media screen and (min-width: 761px) {

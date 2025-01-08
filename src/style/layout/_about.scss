@@ -9,6 +9,7 @@
     }
 }
 .about__left-block {
+    flex-basis: 30%;
 }
 .section__subtittle {
 }
@@ -23,6 +24,7 @@
 .about__dots-dot {
 }
 .about__right-block {
+    flex-basis: fill;
     position: relative;
     max-width: 504px;
     max-height: 245px;
