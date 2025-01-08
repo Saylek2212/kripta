@@ -32,6 +32,10 @@
     display: grid;
     justify-content: center;
 }
+
+.category__box {
+    margin-block-end: 2em;
+}
 .category__box-sq {
     position: absolute;
     left: -10px;

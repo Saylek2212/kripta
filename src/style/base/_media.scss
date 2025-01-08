@@ -26,6 +26,11 @@
         align-items: end;
         justify-content: center;
     }
+    .about {
+        flex-wrap: wrap;
+        column-gap: 10vw;
+
+    }
 
 }
 

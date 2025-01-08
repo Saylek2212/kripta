@@ -1,11 +1,18 @@
 .steps {
     margin-block-end: 35px;
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2em;
     * {
         margin-block-end: 1rem;
     }
 }
+
+.steps__text-block {
+    flex-basis: 50%;
+}
+
 .steps__text-block-boxes {
     max-width: 395px;;
 }

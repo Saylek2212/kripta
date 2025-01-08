@@ -1,6 +1,9 @@
 .about {
     margin-block-end: 35px;
-    display: grid;justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     * {
         margin-block-end: 1rem;
     }
@@ -34,7 +37,8 @@
               0px 100px 80px rgba(0,0,0,0.02);
               padding: 1em;
 }
-.about__right-block_card {
+.about__right-block, .about__left-block {
+    flex-basis: 50%;
 }
 .about__right-block-img {
     position: absolute;
